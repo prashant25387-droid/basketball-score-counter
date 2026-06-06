@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Basketball score counter</title>
+        <link rel="stylesheet" href="score.css">
+    </head>
+    <body>
+        <div class="teamscore">
+            <h1>HOME</h1>
+            <button  id="homescore"></button>
+            <div class="scoreincrement">
+                <button onclick="plusone()" id="plusone">+1</button>
+                <button onclick="plustwo()" id="plustwo">+2</button>
+                <button onclick="plusthree()" id="plusthree">+3</button>
+            </div>
+
+        </div>
+        <div class="teamscore">
+            <h1>GUEST</h1>
+            <button id="guestscore"></button>
+            <div class="scoreincrement">
+                <button onclick="one()" id="one">+1</button>
+                <button onclick="two()" id="two">+2</button>
+                <button onclick="three()" id="three">+3</button>
+            </div>
+
+        </div>
+        <script src="score.js"></script>
+    </body>
+</html>

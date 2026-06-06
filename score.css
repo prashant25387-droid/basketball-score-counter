@@ -1,0 +1,107 @@
+body{
+    display:flex;
+    justify-content: space-around;
+    background: rgb(49, 78, 164);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+.teamscore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 40px;
+}
+h1{
+    margin: 10px 10px;
+    font-weight: 800;
+    text-shadow: 3px 4px black;
+    font-size: 60px;
+
+}
+
+#homescore{
+    font-family: 'Times New Roman', Times, serif;
+    background:black;
+    color:rgb(161, 250, 250);
+    text-shadow: 2px 4px black;
+    width:100px;
+    height: 100px;
+    font-weight: 500;
+    font-size: 50px;
+    padding:10px 10px;
+    margin: 30px 20px;
+    border: 8px solid whitesmoke;
+    border-radius: 5px;
+
+}
+#guestscore{
+    font-family: 'Times New Roman', Times, serif;
+    background: black;
+    color:rgb(160, 244, 244);
+    text-shadow: 2px 4px black;
+    width:100px;
+    height: 100px;
+    font-weight: 500;
+    font-size: 50px;
+    margin: 30px 20px;
+    border: 8px solid whitesmoke;
+    border-radius: 5px;
+
+}
+#plusone{
+    border: 3px solid whitesmoke;
+    background: black;
+    color: aquamarine;
+    border-radius: 5px;
+    font-size: 10px;
+    width: 30px;
+    height: 30px;
+
+}
+#plustwo{
+    border: 3px solid whitesmoke;
+    background: black;
+    color: aquamarine;
+    border-radius: 5px;
+    font-size: 10px;
+    width: 30px;
+    height: 30px;
+
+}
+#plusthree{
+    border: 3px solid whitesmoke;
+    background: black;
+    color: aquamarine;
+    border-radius: 5px;
+    font-size: 10px;
+    width: 30px;
+    height: 30px;
+}
+#one{
+    border: 3px solid whitesmoke;
+    background: black;
+    color: aquamarine;
+    border-radius: 5px;
+    font-size: 10px;
+    width: 30px;
+    height: 30px;
+}
+#two{
+    border: 3px solid whitesmoke;
+    background: black;
+    color: aquamarine;
+    border-radius: 5px;
+    font-size: 10px;
+    width: 30px;
+    height: 30px;
+}
+#three{
+    border: 3px solid whitesmoke;
+    background: black;
+    color: aquamarine;
+    border-radius: 5px;
+    font-size: 10px;
+    width: 30px;
+    height: 30px;
+}
